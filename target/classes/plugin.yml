@@ -1,0 +1,15 @@
+author: SwearWord
+database: false
+main: org.blockface.chunkyhomes.ChunkyHomes
+name: ChunkyHomes
+url: http://blockface.org/
+version: '1.0'
+depend: [Chunky]
+
+permissions:
+    chunky.home:
+        description: Teleport home.
+        default: true
+    chunky.sethome:
+        description: Set home chunk.
+        default: true
